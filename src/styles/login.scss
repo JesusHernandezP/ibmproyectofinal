@@ -1,0 +1,20 @@
+@import "colors";
+
+.bg-login {
+    background-color: $lightdark;
+    border-radius: 8px ;
+
+    a {
+        color:$red;
+    }
+     button {
+        background-color: $red;
+     }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgb(124, 123, 123)  !important;
+   color: white !important;
+
+}
+
