@@ -20,9 +20,9 @@ const Founder = () => {
         <h3>Celso Perdomo</h3>
 
         <p>
-          Hey, Everyone I am Celso Perdomo, the founder of Burger Shop.
+          Hey, Soy Celso Perdomo, el fundador de PF Burger2.0.
           <br />
-          Our aim is to create the most tasty burger on planet.
+          Nosotros creamos las mejores hamburguesas a la parrilla.
         </p>
       </motion.div>
     </section>

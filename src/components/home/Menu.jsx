@@ -15,7 +15,7 @@ const Menu = () => {
                     itemNum={1}
                     burgerSrc={burger1}
                     price={( "3,30")}
-                    title="Hamburguesa con queso"
+                    title="Cheese Burger"
                     handler={addToCartHandler}
                     delay={0.1}
                 />
@@ -23,7 +23,7 @@ const Menu = () => {
                     itemNum={2}
                     burgerSrc={burger2}
                     price={("4,50")}
-                    title="Hamburguesa vegetariana con queso"
+                    title="Doble Carne"
                     delay={0.5}
                     handler={addToCartHandler}
                 />
@@ -31,7 +31,7 @@ const Menu = () => {
                     itemNum={3}
                     burgerSrc={burger3}
                     price={("6,10")}
-                    title="Hamburguesa con queso y patatas fritas"
+                    title="BBQ burger"
                     delay={0.8}
                     handler={addToCartHandler}
                 />

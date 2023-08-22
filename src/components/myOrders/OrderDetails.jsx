@@ -1,70 +1,37 @@
 import React from "react";
 
 const OrderDetails = () => {
+    const storedShippingInfo = JSON.parse(localStorage.getItem("shippingInfo"));
+
     return (
         <section className="orderDetails">
             <main>
                 <h1>Información del pedido</h1>
                 <div>
-                    <h1>Envío</h1>
+                    <h2>Envío</h2>
                     <p>
-                        <b>Dirección</b>
-                        {"Gran Vía 123"}
+                         {storedShippingInfo && storedShippingInfo.street}
+                    </p>
+                    
+
+                    <h2>Contacto</h2>
+                    
+                    <p>
+                        +34 {storedShippingInfo && storedShippingInfo.phoneNumber}
                     </p>
                 </div>
                 <div>
-                    <h1>Contacto</h1>
+                    <h2>Estado</h2>
                     <p>
-                        <b>Nombre</b>
-                        {"Pedro"}
-                    </p>
-                    <p>
-                        <b>Teléfono</b>
-                        {"+34 567 890 123"}
-                    </p>
-                </div>
-                <div>
-                    <h1>Estado</h1>
-                    <p>
-                        <b>Estado del pedido</b>
                         {"En curso"}
                     </p>
-                    <p>
-                        <b>Fecha del pedido</b>
-                        {"23-06-2023"}
-                    </p>
-                    <p>
-                        <b>Fecha de entrega</b>
-                        {"23-06-2023"}
-                    </p>
+                    
                 </div>
                 <div>
-                    <h1>Pago</h1>
+                <h1>Pago</h1>
                     <p>
                         <b>Método de pago</b>
                         {"Pago contra entrega"}
-                    </p>
-                    <p>
-                        <b>Referencia de pago</b>#{"RP00012345"}
-                    </p>
-                    <p>
-                        <b>Fecha de pago</b>
-                        {"23-06-2023"}
-                    </p>
-                </div>
-                <div>
-                    <h1>Total</h1>
-                    <p>
-                        <b>Subtotal</b>€ {'13, 90'}
-                    </p>
-                    <p>
-                        <b>Costos de envío</b>€ {'2, 30'}
-                    </p>
-                    <p>
-                        <b>IVA</b>€ {'2, 92'}
-                    </p>
-                    <p>
-                        <b>Importe total</b>€ {}
                     </p>
                 </div>
                 <article>
@@ -104,8 +71,24 @@ const OrderDetails = () => {
                         </div>
                     </div>
                 </article>
+                <div>
+                    <h1>Total</h1>
+                    <p>
+                        <b>Subtotal</b>€ {'13, 90'}
+                    </p>
+                    <p>
+                        <b>Costos de envío</b>€ {'2, 30'}
+                    </p>
+                    <p>
+                        <b>IVA</b>€ {'2, 92'}
+                    </p>
+                    <p>
+                        <b>Importe total</b>€ {}
+                    </p>
+                </div>
             </main>
         </section>
     );
 };
+
 export default OrderDetails;

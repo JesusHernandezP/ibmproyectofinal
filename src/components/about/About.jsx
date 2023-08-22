@@ -8,9 +8,9 @@ const About = () => {
             <main>
                 <h1>Quiénes somos</h1>
                 <article>
-                    <h4>Hamburguesería</h4>
+                    <h4>PF Burger2.0</h4>
                     <p>
-                        Esto es la Hamburguesería. El lugar con las hamburguesas más
+                        Esto es PF Burger2.0. El lugar con las hamburguesas más
                         sabrosas del planeta.
                     </p>
                     <p>
@@ -26,11 +26,10 @@ const About = () => {
                     <article>
                         <div>
                             <img src={me} alt="Fundador" />
-                            <h3>Jesus Hernandez</h3>
+                            <h3>Celso Perdomo</h3>
                         </div>
                         <p>
-                            Soy Nelson, el fundador de la Hamburguesería y afiliado a Good
-                            Taste...
+                            Soy Celso Perdomo, el fundador de PF Burger2.0
                         </p>
                     </article>
                 </div>

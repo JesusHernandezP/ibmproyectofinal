@@ -32,7 +32,7 @@ const Profile = () => {
             opacity: 1,
           }}
         >
-          <Link to="/myorders">Orders</Link>
+          <Link to="/myorders">Ordenes</Link>
         </motion.div>
 
         <motion.button
@@ -48,7 +48,7 @@ const Profile = () => {
             delay: 0.3,
           }}
         >
-          <Link to="/login">Logout</Link>
+          <Link to="/login">Sañir</Link>
           
         </motion.button>
       </main>

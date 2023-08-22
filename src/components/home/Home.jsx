@@ -26,7 +26,7 @@ const Home = () => {
                         {...options}
                         transition={{ delay: 0.2 }} 
                     >
-                        Regálate una sabrosa hamburguesa.
+                        Autenticamente Asadas al carbon
                     </motion.p>
                 </div>
                 
@@ -42,7 +42,7 @@ const Home = () => {
                     }}
                     transition={{ delay: 0.4 }} 
                 >
-                    Explorar el menú
+                    Nuestro                     Menú
                 </motion.a>
                 
             </section>

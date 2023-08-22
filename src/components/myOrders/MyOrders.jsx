@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineEye } from "react-icons/ai";
 
 const MyOrders = () => {
-  const arr = [1, 2, 3, 4];
+  const arr = [1]
 
   return (
     <section className="tableClass">
@@ -35,7 +35,7 @@ const MyOrders = () => {
                 </td>
               </tr>
             ))}
-          </tbody>;
+          </tbody>
         </table>
       </main>
     </section>
